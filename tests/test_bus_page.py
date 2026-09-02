@@ -1,6 +1,6 @@
 import pytest
 
-BUS_URL = "/bus-ticket-booking/"
+BUS_URL = "/in/bus-ticket-booking/"
 
 @pytest.mark.smoke
 def test_bus_url(page, app_config):
