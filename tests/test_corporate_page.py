@@ -1,6 +1,6 @@
 import pytest
 
-CORPORATE_URL = "/corporate"
+CORPORATE_URL = "/in/corporate"
 
 @pytest.mark.smoke
 
