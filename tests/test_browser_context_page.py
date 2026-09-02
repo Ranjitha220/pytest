@@ -7,8 +7,6 @@ def test_browser_context_page(browser, app_config):
 
     page.goto(app_config.base_url)
 
-    print("\nFinal URL:", page.url)
-
     assert page.url.startswith(app_config.base_url)
 
     context.close()
