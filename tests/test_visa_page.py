@@ -3,6 +3,7 @@ import pytest
 VISA_URL = "https://www.akbartravels.com/visa"
 
 @pytest.mark.smoke
+
 def test_visa_url(page):
     page.goto(VISA_URL)
     page_title = page.title()

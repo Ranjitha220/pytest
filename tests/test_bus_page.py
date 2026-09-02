@@ -10,6 +10,3 @@ def test_bus_url(page):
     print("\nURL:", page.url)
     print("TITLE:", page.title())
     assert page_title == "Bus Ticket Booking Online at Lowest Price | Akbar Travels"
-
-
-
