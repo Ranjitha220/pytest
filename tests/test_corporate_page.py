@@ -10,6 +10,3 @@ def test_corporate_url(page):
     print("\nURL:", page.url)
     print("TITLE:", page.title())
     assert page_title == "Akbar Travels - Best Travel Website. Book Flights, Hotels, Holidays & more"
-
-
-
