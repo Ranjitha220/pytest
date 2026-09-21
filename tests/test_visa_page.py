@@ -1,6 +1,6 @@
 import pytest
 
-VISA_URL = "/visa"
+VISA_URL = "https://www.akbartravels.com/visa"
 
 @pytest.mark.smoke
 
